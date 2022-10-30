@@ -2,8 +2,8 @@
   "type": "component",
   "metadata": {},
   "schema": {
-    "name": "budibase-chartjs",
-    "friendlyName": "budibase-chartjs",
+    "name": "budibase-plugin-chartjs",
+    "friendlyName": "budibase-plugin-chartjs",
     "description": "Chart.js component for Budibase",
     "icon": "TableAndChart",
     "settings": [

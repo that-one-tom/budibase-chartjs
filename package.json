@@ -1,6 +1,6 @@
 {
   "name": "budibase-plugin-chartjs",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Chart.js component for Budibase",
   "license": "MIT",
   "svelte": "index.js",
