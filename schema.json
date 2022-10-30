@@ -1,0 +1,31 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "budibase-chartjs",
+    "friendlyName": "budibase-chartjs",
+    "description": "Chart.js component for Budibase",
+    "icon": "TableAndChart",
+    "settings": [
+      {
+        "type": "text",
+        "key": "chartdata",
+        "label": "Data",
+        "required": true
+      },
+      {
+        "type": "select",
+        "key": "charttype",
+        "label": "Type",
+        "defaultValue": "line",
+        "required": true,
+        "options": [
+          {
+            "label": "Line",
+            "value": "line"
+          }
+        ]
+      }
+    ]
+  }
+}
