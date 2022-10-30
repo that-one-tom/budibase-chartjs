@@ -25,6 +25,11 @@
             "value": "line"
           }
         ]
+      },
+      {
+        "type": "text",
+        "key": "chartoptions",
+        "label": "Options"
       }
     ]
   }
