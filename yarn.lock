@@ -705,15 +705,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"budibase-chartjs@workspace:.":
+"budibase-plugin-chartjs@workspace:.":
   version: 0.0.0-use.local
-  resolution: "budibase-chartjs@workspace:."
+  resolution: "budibase-plugin-chartjs@workspace:."
   dependencies:
     "@budibase/backend-core": ^2.0.13
     "@crownframework/svelte-error-boundary": ^1.0.3
     "@rollup/plugin-commonjs": ^18.0.0
     "@rollup/plugin-node-resolve": ^11.2.1
-    chart.js: ^3.9.1
+    chart.js: ^4.0.1
     npm-run-all: ^4.1.5
     postcss: ^8.2.10
     rollup: ^2.44.0
@@ -725,7 +725,7 @@ __metadata:
     rollup-plugin-svg: ^2.0.0
     rollup-plugin-terser: ^7.0.2
     svelte: ^3.49.0
-    svelte-chartjs: ^3.0.1
+    svelte-chartjs: ^3.1.0
     tar: ^6.1.11
   languageName: unknown
   linkType: soft
@@ -879,10 +879,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chart.js@npm:^3.9.1":
-  version: 3.9.1
-  resolution: "chart.js@npm:3.9.1"
-  checksum: 9ab0c0ac01215af0b3f020f2e313030fd6e347b48ed17d5484ee9c4e8ead45e78ae71bea16c397621c386b409ce0b14bf17f9f6c2492cd15b56c0f433efdfff6
+"chart.js@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "chart.js@npm:4.0.1"
+  checksum: 013dabf3cd4ad2d71574e1d616906ae6f5b3f5914efb7f8ac7407bfe9b621e997f30966350bbdf31e3a1322c8c602715ef4dd6d0b6072590bb48db03861ac401
   languageName: node
   linkType: hard
 
@@ -1742,7 +1742,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -4602,7 +4602,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -5242,13 +5242,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-chartjs@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "svelte-chartjs@npm:3.0.1"
+"svelte-chartjs@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "svelte-chartjs@npm:3.1.0"
   peerDependencies:
-    chart.js: ^3.5.0
+    chart.js: ^3.5.0 || ^4.0.0
     svelte: ^3.45.0
-  checksum: 7aaccb83bd85063bbcfd90764df6c0bfcea2d01416162ed69f8772f7d342f73a4369ab4a53519250b6f1cc7fc060d354d8a95587019b9a032aa28692d17f0911
+  checksum: 995755e03f298349652e48c9a14c0932ea01d1ba4e4e43421577c3027320ad8f371617cb0a51f2b17e8618d52b2d865ee0f131b055bb6f087bc3f82beb88cd65
   languageName: node
   linkType: hard
 

@@ -113,3 +113,6 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# docker compose config for testing the plugin
+docker-compose.yaml

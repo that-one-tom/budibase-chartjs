@@ -1,6 +1,6 @@
 {
   "name": "budibase-plugin-chartjs",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "description": "Chart.js component for Budibase",
   "license": "MIT",
   "svelte": "index.js",
@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@crownframework/svelte-error-boundary": "^1.0.3",
-    "chart.js": "^3.9.1",
+    "chart.js": "^4.0.1",
     "svelte": "^3.49.0",
-    "svelte-chartjs": "^3.0.1"
+    "svelte-chartjs": "^3.1.0"
   },
   "devDependencies": {
     "@budibase/backend-core": "^2.0.13",
